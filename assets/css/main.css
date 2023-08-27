@@ -1,0 +1,11 @@
+@import './base.css';
+@import './header.css';
+@import './hero.css';
+@import './features.css';
+@import './contents.css';
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 101px;
+}
