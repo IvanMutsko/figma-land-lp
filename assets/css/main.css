@@ -3,6 +3,16 @@
 @import './hero.css';
 @import './features.css';
 @import './contents.css';
+@import './galery.css';
+@import './partners.css';
+@import './testimonials.css';
+@import './conclusion.css';
+@import './footer.css';
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 main {
   display: flex;

@@ -1,0 +1,87 @@
+.footer {
+  display: flex;
+  padding: 107px 0px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 75px;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.nav-title {
+  font-family: 'GraphikMedium';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.1px;
+}
+
+.footer-nav-list {
+  display: flex;
+  width: 121px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 19px;
+
+  list-style: none;
+}
+
+.footer-nav-item {
+  /* Стилі для пунктів списку навігаційних блоків */
+}
+
+.nav-link {
+  color: white;
+  font-family: 'GraphikMedium';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+
+  text-decoration: none;
+}
+
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.contacts-subwrap {
+  display: flex;
+  align-items: center;
+}
+
+.contacts-link {
+  padding: 0px 8px;
+
+  color: white;
+  font-family: 'GraphikMedium';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+
+  text-decoration: none;
+}
+
+.contacts-socials-list {
+  display: flex;
+  padding: 20px 0px;
+  align-items: center;
+  gap: 24px;
+
+  list-style: none;
+}
