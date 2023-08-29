@@ -1,9 +1,5 @@
 .conclusion {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   gap: 2px;
-  align-self: stretch;
 
   background: #1e1e1e;
   padding-bottom: 101px;
@@ -15,16 +11,6 @@
   flex-direction: column;
   align-items: center;
   gap: 37px;
-}
-
-.conclusion-title {
-  text-align: center;
-  padding: 0px 10px;
-
-  font-size: 52px;
-  font-weight: 400;
-  line-height: 1.19;
-  letter-spacing: 0.2px;
 }
 
 .conclusion-btn {
@@ -48,7 +34,4 @@
 .conclusion-btn:hover,
 .conclusion-btn:focus {
   background: #4454fece;
-}
-
-.conclusion-img {
 }

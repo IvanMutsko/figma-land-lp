@@ -1,4 +1,4 @@
-.header{
+.header {
   display: flex;
   padding: 15px 16px 14px 24px;
   justify-content: space-between;
@@ -36,6 +36,7 @@
 .burger-btn {
   background-color: transparent;
   border: none;
+  fill: rgba(255, 255, 255);
 }
 
 .burger-btn:hover,

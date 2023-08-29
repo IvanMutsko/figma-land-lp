@@ -37,10 +37,6 @@
   list-style: none;
 }
 
-.footer-nav-item {
-  /* Стилі для пунктів списку навігаційних блоків */
-}
-
 .nav-link {
   color: white;
   font-family: 'GraphikMedium';
@@ -67,7 +63,7 @@
 .contacts-link {
   padding: 0px 8px;
 
-  color: white;
+  color: #fff;
   font-family: 'GraphikMedium';
   font-size: 16px;
   font-weight: 500;
@@ -77,6 +73,17 @@
   text-decoration: none;
 }
 
+.contacts-subwrap {
+  fill: rgba(255, 255, 255);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+  color: rgba(255, 255, 255, 0.65);
+}
+
 .contacts-socials-list {
   display: flex;
   padding: 20px 0px;
@@ -84,4 +91,13 @@
   gap: 24px;
 
   list-style: none;
+}
+
+.socials-icon {
+  fill: #fff;
+}
+
+.socials-icon:hover,
+.socials-icon:focus {
+  fill: rgba(255, 255, 255, 0.65);
 }
