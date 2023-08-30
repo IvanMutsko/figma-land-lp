@@ -3,17 +3,13 @@
   gap: 50px;
 }
 
-.partners-text-wrap {
+.partners .section-text-wrap {
   width: 349px;
 }
 
-.partners-title {
-
+.partners .section-title {
   padding: 10px;
-
 }
-
-
 
 .partners-logo-wrap {
   display: flex;
@@ -32,20 +28,6 @@
   display: block;
 }
 
-.partners-btn {
+.partners .main-btn {
   padding: 12px 40px;
-  color: #fff;
-  background-color: transparent;
-  border: 1px solid #fff;
-  box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
-
-  font-family: 'GraphikMedium';
-  font-size: 17px;
-  line-height: 1.47;
-  letter-spacing: 0.2px;
-}
-
-.partners-btn:hover,
-.partners-btn:focus {
-  background-color: rgba(255, 255, 255, 0.1);
 }

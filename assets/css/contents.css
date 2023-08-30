@@ -3,12 +3,12 @@
   gap: 44px;
 }
 
-.contents-text-wrap {
+.contents .section-text-wrap {
   width: 308px;
   gap: 10px;
 }
 
-.contents-title {
+.contents .section-title {
   display: flex;
   padding: 10px;
   align-items: center;
@@ -45,32 +45,6 @@
   color: #000;
 }
 
-.contents-item-text {
+.contents .list-item-text {
   text-align: center;
-}
-
-.contents-item-btn {
-  display: flex;
-  padding: 20px 36px;
-  align-items: center;
-
-  background: #4452fe;
-  border: none;
-
-  box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
-
-  color: #fff;
-
-  font-family: 'GraphikMedium';
-  font-size: 17px;
-  line-height: 1.47;
-  letter-spacing: 0.2px;
-}
-
-.contents-item-btn:hover,
-.contents-item-btn:focus {
-  background: #4454fece;
-}
-
-.contents-item-img {
 }

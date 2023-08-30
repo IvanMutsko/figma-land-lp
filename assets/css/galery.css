@@ -3,40 +3,22 @@
   gap: 44px;
 }
 
-.gallery-text-wrap {
+.gallery .section-text-wrap {
   width: 308px;
   gap: 10px;
 }
-
-
-
-
 
 .gallery-list {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 33px;
-  
+
   padding: 0 35px;
-  
+
   list-style: none;
 }
 
-.gallery-btn {
+.gallery .main-btn {
   padding: 12px 40px;
-  color: #fff;
-  background-color: transparent;
-  border: 1px solid #fff;
-  box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
-
-  font-family: 'GraphikMedium';
-  font-size: 17px;
-  line-height: 1.47;
-  letter-spacing: 0.2px;
-}
-
-.gallery-btn:hover,
-.gallery-btn:focus {
-  background-color: rgba(255, 255, 255, 0.1);
 }
