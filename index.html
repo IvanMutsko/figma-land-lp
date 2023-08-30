@@ -21,13 +21,23 @@
       /></a>
       <div class="btn-wrap">
         <button class="main-btn" type="button">Login</button>
-        <button class="burger-btn" type="button">
+        <button class="burger-btn" type="button" id="burger-button">
           <svg class="burger-icon" width="66px" height="53px">
             <use href="./assets/images/svg/sprite.svg#burger"></use>
           </svg>
         </button>
       </div>
     </header>
+    <div class="visually-hidden" id="burger-menu">
+      <nav class="burger-nav">
+        <ul class="burger-nav-list">
+          <li class="burger-nav-item"><a href="#" class="burger-nav-link">Home</a></li>
+          <li class="burger-nav-item"><a href="#" class="burger-nav-link">Product</a></li>
+          <li class="burger-nav-item"><a href="#" class="burger-nav-link">About</a></li>
+          <li class="burger-nav-item"><a href="#" class="burger-nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <main>
       <section class="section hero">
         <div class="section-text-wrap">
@@ -345,5 +355,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="./js/index.js"></script>
   </body>
 </html>
