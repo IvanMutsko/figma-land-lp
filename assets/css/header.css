@@ -1,4 +1,7 @@
 .header {
+  position: relative;
+  z-index: 4;
+
   display: flex;
   padding: 15px 16px 14px 24px;
   justify-content: space-between;
